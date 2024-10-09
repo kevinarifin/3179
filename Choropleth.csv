@@ -1,0 +1,34 @@
+,,,,Crude,,,Age-standardised(a),
+PHN code,State,PHN area name,,%,95% CI,,%(a),95% CI
+PHN101,NSW,Central and Eastern Sydney,,58.1,53.2?62.9,,57.6,52.6?62.6
+PHN102,NSW,Northern Sydney,,47.5,41.5?53.6,,46.4,40.4?52.3
+PHN103,NSW,Western Sydney,,64.2,58.0?70.4,,64.7,59.3?70.1
+PHN104,NSW,Nepean Blue Mountains,,66.1,55.8?76.5,,#63.2,52.1?74.3
+PHN105,NSW,South Western Sydney,,65.7,58.6?72.7,,66.1,59.4?72.7
+PHN106,NSW,South Eastern NSW,,72.6,67.4?77.9,,71.4,65.2?77.6
+PHN107,NSW,Western NSW,,74.8,64.7?84.9,,#78.9,68.6?89.2
+PHN108,NSW,Hunter New England and Central Coast,,63.7,58.0?69.5,,59.7,53.1?66.3
+PHN109,NSW,North Coast,,71.1,64.0?78.2,,64.9,53.5?76.4
+PHN110,NSW,Murrumbidgee,,n.p,n.p,,n.p,n.p
+PHN201,VIC,North Western Melbourne,,64.9,59.1?70.6,,64.1,58.8?69.4
+PHN202,VIC,Eastern Melbourne,,62.6,56.8?68.3,,62.7,57.2?68.3
+PHN203,VIC,South Eastern Melbourne,,66.3,61.1?71.4,,65.3,60.5?70.1
+PHN204,VIC,Gippsland,,78.8,67.0?90.5,,69.2,59.1?79.4
+PHN205,VIC/NSW,Murray,,65.6,56.7?74.5,,#64.3,54.1?74.4
+PHN206,VIC,Western Victoria,,69.3,62.1?76.5,,70.1,60.3?79.8
+PHN301,QLD,Brisbane North,,70.6,64.7?76.5,,69.0,62.3?75.7
+PHN302,QLD,Brisbane South,,69.3,64.2?74.5,,70.6,65.3?75.9
+PHN303,QLD,Gold Coast,,65.1,58.9?71.3,,62.5,52.7?72.3
+PHN304,QLD,Darling Downs and West Moreton,,71.8,63.3?80.2,,70.2,61.0?79.4
+PHN305,QLD,Western Queensland,,n.p,n.p,,n.p,n.p
+PHN306,QLD,"Central Queensland, Wide Bay & Sunshine Coast",,69.4,63.0?75.9,,66.6,59.5?73.7
+PHN307,QLD,Northern Queensland,,70.2,63.5?76.9,,69.6,62.8?76.4
+PHN401,SA,Adelaide,,65.9,62.7?69.1,,65.4,62.0?68.8
+PHN402,SA,Country SA,,75.1,69.8?80.4,,73.2,67.0?79.5
+PHN501,WA,Perth North,,65.5,61.8?69.3,,65.5,61.7?69.4
+PHN502,WA,Perth South,,69.1,65.3?72.9,,68.4,64.3?72.5
+PHN503,WA,Country WA,,73.3,68.3?78.2,,72.4,66.6?78.3
+PHN601,TAS,Tasmania,,71.1,68.0?74.3,,69.4,66.0?72.9
+PHN701,NT,Northern Territory,,?64.5,59.9?69.0,,?63.5,59.3?67.8
+PHN801,ACT,Australian Capital Territory,,64.6,62.1?67.1,,64.4,61.8?67.1
+Total,,Australia,,65.8,64.7?66.9,,64.8,63.7?65.9
