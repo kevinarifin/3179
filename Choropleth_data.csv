@@ -1,0 +1,32 @@
+PHN code,State,PHN Area Name,Crude %,Age-standardised %
+PHN101,NSW,Central and Eastern Sydney,58.1,57.6
+PHN102,NSW,Northern Sydney,47.5,46.4
+PHN103,NSW,Western Sydney,64.2,64.7
+PHN104,NSW,Nepean Blue Mountains,66.1,63.2
+PHN105,NSW,South Western Sydney,65.7,66.1
+PHN106,NSW,South Eastern NSW,72.6,71.4
+PHN107,NSW,Western NSW,74.8,78.9
+PHN108,NSW,Hunter New England and Central Coast,63.7,59.7
+PHN109,NSW,North Coast,71.1,64.9
+PHN110,NSW,Murrumbidgee,n.p,n.p
+PHN201,VIC,North Western Melbourne,64.9,64.1
+PHN202,VIC,Eastern Melbourne,62.6,62.7
+PHN203,VIC,South Eastern Melbourne,66.3,65.3
+PHN204,VIC,Gippsland,78.8,69.2
+PHN205,VIC/NSW,Murray,65.6,64.3
+PHN206,VIC,Western Victoria,69.3,70.1
+PHN301,QLD,Brisbane North,70.6,69
+PHN302,QLD,Brisbane South,69.3,70.6
+PHN303,QLD,Gold Coast,65.1,62.5
+PHN304,QLD,Darling Downs and West Moreton,71.8,70.2
+PHN305,QLD,Western Queensland,n.p,n.p
+PHN306,QLD,"Central Queensland, Wide Bay & Sunshine Coast",69.4,66.6
+PHN307,QLD,Northern Queensland,70.2,69.6
+PHN401,SA,Adelaide,65.9,65.4
+PHN402,SA,Country SA,75.1,73.2
+PHN501,WA,Perth North,65.5,65.5
+PHN502,WA,Perth South,69.1,68.4
+PHN503,WA,Country WA,73.3,72.4
+PHN601,TAS,Tasmania,71.1,69.4
+PHN701,NT,Northern Territory,64.5,63.5
+PHN801,ACT,Australian Capital Territory,64.6,64.4
