@@ -1,183 +1,96 @@
 Country,Death rate from obesity,Adult obesity,Continent,Population
-Afghanistan,124,4.50%,Asia,"32,792,527"
-Albania,50.6,22.30%,Europe,"2,903,748"
-Algeria,88.5,26.60%,Africa,"39,205,035"
-Angola,55.2,6.80%,Africa,"27,160,766"
-Argentina,62,28.50%,South America,"43,024,072"
-Australia,31.1,30.40%,Oceania,"23,595,599"
-Austria,37.8,21.90%,Europe,"8,547,812"
-Belarus,74.5,26.60%,Europe,"9,472,704"
-Belgium,24.3,24.50%,Europe,"11,210,111"
-Bolivia,71.6,18.70%,South America,"10,848,889"
-Bosnia and Herzegovina,65.1,19.40%,Europe,"3,564,831"
-Brazil,54.9,22.30%,South America,"200,085,126"
-Bulgaria,138.6,27.40%,Europe,"7,223,451"
-Cameroon,104,9.50%,Africa,"22,059,894"
-Canada,29.9,31.30%,North America,"35,634,265"
-Central African Republic,81.4,6.30%,Africa,"4,623,188"
-Chile,49.6,28.80%,South America,"17,864,191"
-China,27.6,6.60%,Asia,"1,387,951,973"
-Colombia,35.5,22.10%,South America,"46,565,426"
-Costa Rica,42.6,25.70%,North America,"4,767,126"
-Croatia,61.3,27.10%,Europe,"4,219,485"
-Cuba,40.7,26.70%,North America,"11,285,781"
-Czechia,56.3,28.50%,Europe,"10,517,222"
-Democratic Republic of Congo,79.3,5.60%,Africa,"78,403,248"
-Denmark,25.7,21.30%,Europe,"5,643,793"
-Djibouti,32.9,12.20%,North America,"1,002,720"
-Dominica,134.6,28.20%,North America,"70,385"
-Ecuador,71.8,19.30%,South America,"16,035,126"
-Egypt,226.8,31.10%,Africa,"97,528,656"
-El Salvador,79.8,22.70%,North America,"6,162,953"
-Ethiopia,26.2,3.60%,Africa,"101,115,615"
-Fiji,290.8,30.00%,Oceania,"917,589"
-Finland,33.3,24.90%,Europe,"5,461,686"
-France,23.1,23.20%,Europe,"64,692,495"
-Germany,39.9,25.70%,Europe,"81,376,078"
-Ghana,69.3,9.70%,Africa,"28,041,591"
-Greece,38.5,27.40%,Europe,"10,893,169"
-Guyana,135.7,19.20%,South America,"754,230"
-Haiti,62.4,20.50%,North America,"10,373,241"
-Hungary,78.9,28.60%,Europe,"9,862,843"
-Iceland,27.7,23.10%,Europe,"327,516"
-India,28.3,3.80%,Asia,"1,312,277,184"
-Indonesia,35.1,6.90%,Asia,"258,877,397"
-Iran,70.8,25.50%,Asia,"81,502,045"
-Iraq,114.3,27.40%,Asia,"36,550,059"
-Ireland,29.1,26.90%,Europe,"4,658,237"
-Israel,35.1,26.70%,Asia,"7,897,173"
-Italy,32.8,22.90%,Europe,"60,664,169"
-Jamaica,83.5,24.40%,North America,"2,793,756"
-Japan,9.4,4.40%,Asia,"127,486,600"
-Kiribati,218.2,45.60%,Oceania,"115,338"
-Luxembourg,30.6,24.20%,Europe,"556,285"
-Madagascar,52.2,4.50%,Africa,"24,764,357"
-Malaysia,43.5,15.30%,Asia,"30,696,133"
-Mexico,93,28.40%,North America,"119,784,263"
-Netherlands,25.5,23.10%,Europe,"17,030,087"
-New Zealand,33,32.00%,Oceania,"4,522,977"
-Nicaragua,70.8,21.80%,North America,"6,066,491"
-Niger,32.4,4.70%,Africa,"19,215,917"
-Nigeria,57.6,7.80%,Africa,"185,896,917"
-North Korea,32.5,7.10%,Asia,"25,451,263"
-Norway,20.2,25.00%,Europe,"5,137,397"
-Pakistan,59,7.80%,Asia,"214,264,649"
-Papua New Guinea,69.7,19.40%,Oceania,"8,523,440"
-Paraguay,83.4,19.00%,South America,"6,069,816"
-Peru,33.3,19.10%,South America,"30,115,826"
-Philippines,54.1,6.00%,Asia,"103,767,129"
-Poland,51.1,25.60%,Europe,"38,265,113"
-Portugal,32.7,23.20%,Europe,"10,406,202"
-Romania,73,24.50%,Europe,"19,968,180"
-Russia,78.1,25.70%,Europe,"144,925,638"
-Rwanda,34.2,4.80%,Africa,"11,364,758"
-Samoa,169.4,45.50%,Oceania,"200,051"
-Serbia,84.6,23.50%,Europe,"7,227,203"
-Singapore,16,6.60%,Asia,"5,470,000"
-South Africa,136.7,27.00%,Africa,"55,594,838"
-South Korea,16.1,4.90%,Asia,"50,539,055"
-Spain,31.2,27.10%,Europe,"46,720,186"
-Sri Lanka,41.1,5.40%,Asia,"21,547,455"
-Suriname,65.9,26.50%,South America,"575,382"
-Sweden,27.2,22.10%,Europe,"9,696,437"
-Switzerland,22.8,21.20%,Europe,"8,190,238"
-Thailand,26.2,10.80%,Asia,"70,216,362"
-Tunisia,76.2,27.30%,Africa,"11,274,295"
-Turkey,85.1,32.20%,Asia,"78,036,154"
-Uganda,37.4,4.10%,Africa,"36,395,544"
-Ukraine,85.6,26.10%,Europe,"45,972,378"
-United Kingdom,29.2,29.50%,Europe,"64,865,914"
-United States,54.7,37.30%,North America,"323,115,378"
-Uruguay,47.7,28.90%,South America,"3,356,342"
-Venezuela,83.8,25.20%,South America,"30,254,080"
-Vietnam,18.8,2.10%,Asia,"91,679,583"
-Yemen,75,14.10%,Asia,"30,226,310"
-Zambia,68.3,6.50%,Africa,"15,895,318"
-Zimbabwe,105.3,12.30%,Africa,"14,207,367"
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
+Afghanistan,124,0.045,Asia,32792527
+Albania,50.6,0.223,Europe,2903748
+Algeria,88.5,0.266,Africa,39205035
+Angola,55.2,0.068,Africa,27160766
+Argentina,62,0.285,South America,43024072
+Australia,31.1,0.304,Oceania,23595599
+Austria,37.8,0.219,Europe,8547812
+Belarus,74.5,0.266,Europe,9472704
+Belgium,24.3,0.245,Europe,11210111
+Bolivia,71.6,0.187,South America,10848889
+Bosnia and Herzegovina,65.1,0.194,Europe,3564831
+Brazil,54.9,0.223,South America,200085126
+Bulgaria,138.6,0.274,Europe,7223451
+Cameroon,104,0.095,Africa,22059894
+Canada,29.9,0.313,North America,35634265
+Central African Republic,81.4,0.063,Africa,4623188
+Chile,49.6,0.288,South America,17864191
+China,27.6,0.066,Asia,1387951973
+Colombia,35.5,0.221,South America,46565426
+Costa Rica,42.6,0.257,North America,4767126
+Croatia,61.3,0.271,Europe,4219485
+Cuba,40.7,0.267,North America,11285781
+Czechia,56.3,0.285,Europe,10517222
+Democratic Republic of Congo,79.3,0.056,Africa,78403248
+Denmark,25.7,0.213,Europe,5643793
+Djibouti,32.9,0.122,North America,1002720
+Dominica,134.6,0.282,North America,70385
+Ecuador,71.8,0.193,South America,16035126
+Egypt,226.8,0.311,Africa,97528656
+El Salvador,79.8,0.227,North America,6162953
+Ethiopia,26.2,0.036,Africa,101115615
+Fiji,290.8,0.3,Oceania,917589
+Finland,33.3,0.249,Europe,5461686
+France,23.1,0.232,Europe,64692495
+Germany,39.9,0.257,Europe,81376078
+Ghana,69.3,0.097,Africa,28041591
+Greece,38.5,0.274,Europe,10893169
+Guyana,135.7,0.192,South America,754230
+Haiti,62.4,0.205,North America,10373241
+Hungary,78.9,0.286,Europe,9862843
+Iceland,27.7,0.231,Europe,327516
+India,28.3,0.038,Asia,1312277184
+Indonesia,35.1,0.069,Asia,258877397
+Iran,70.8,0.255,Asia,81502045
+Iraq,114.3,0.274,Asia,36550059
+Ireland,29.1,0.269,Europe,4658237
+Israel,35.1,0.267,Asia,7897173
+Italy,32.8,0.229,Europe,60664169
+Jamaica,83.5,0.244,North America,2793756
+Japan,9.4,0.044,Asia,127486600
+Kiribati,218.2,0.456,Oceania,115338
+Luxembourg,30.6,0.242,Europe,556285
+Madagascar,52.2,0.045,Africa,24764357
+Malaysia,43.5,0.153,Asia,30696133
+Mexico,93,0.284,North America,119784263
+Netherlands,25.5,0.231,Europe,17030087
+New Zealand,33,0.32,Oceania,4522977
+Nicaragua,70.8,0.218,North America,6066491
+Niger,32.4,0.047,Africa,19215917
+Nigeria,57.6,0.078,Africa,185896917
+North Korea,32.5,0.071,Asia,25451263
+Norway,20.2,0.25,Europe,5137397
+Pakistan,59,0.078,Asia,214264649
+Papua New Guinea,69.7,0.194,Oceania,8523440
+Paraguay,83.4,0.19,South America,6069816
+Peru,33.3,0.191,South America,30115826
+Philippines,54.1,0.06,Asia,103767129
+Poland,51.1,0.256,Europe,38265113
+Portugal,32.7,0.232,Europe,10406202
+Romania,73,0.245,Europe,19968180
+Russia,78.1,0.257,Europe,144925638
+Rwanda,34.2,0.048,Africa,11364758
+Samoa,169.4,0.455,Oceania,200051
+Serbia,84.6,0.235,Europe,7227203
+Singapore,16,0.066,Asia,5470000
+South Africa,136.7,0.27,Africa,55594838
+South Korea,16.1,0.049,Asia,50539055
+Spain,31.2,0.271,Europe,46720186
+Sri Lanka,41.1,0.054,Asia,21547455
+Suriname,65.9,0.265,South America,575382
+Sweden,27.2,0.221,Europe,9696437
+Switzerland,22.8,0.212,Europe,8190238
+Thailand,26.2,0.108,Asia,70216362
+Tunisia,76.2,0.273,Africa,11274295
+Turkey,85.1,0.322,Asia,78036154
+Uganda,37.4,0.041,Africa,36395544
+Ukraine,85.6,0.261,Europe,45972378
+United Kingdom,29.2,0.295,Europe,64865914
+United States,54.7,0.373,North America,323115378
+Uruguay,47.7,0.289,South America,3356342
+Venezuela,83.8,0.252,South America,30254080
+Vietnam,18.8,0.021,Asia,91679583
+Yemen,75,0.141,Asia,30226310
+Zambia,68.3,0.065,Africa,15895318
+Zimbabwe,105.3,0.123,Africa,14207367
