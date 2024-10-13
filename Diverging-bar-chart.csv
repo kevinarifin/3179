@@ -1,49 +1,49 @@
 Age group,Percent,Classification,Gender
-18-24,29.5,Overweight but not obese,1
-25-34,38.4,Overweight but not obese,1
-35-44,40,Overweight but not obese,1
-45-54,42.9,Overweight but not obese,1
-55-64,38.4,Overweight but not obese,1
-65-74,40.9,Overweight but not obese,1
-75+,39.6,Overweight but not obese,1
-18+,38.6,Overweight but not obese,1
-18-24,25.2,Overweight but not obese,2
-25-34,22.9,Overweight but not obese,2
-35-44,29.9,Overweight but not obese,2
-45-54,30.9,Overweight but not obese,2
-55-64,33.3,Overweight but not obese,2
-65-74,32.5,Overweight but not obese,2
-75+,33.6,Overweight but not obese,2
-18+,29.6,Overweight but not obese,2
-18-24,14.8,Obese,1
-25-34,28,Obese,1
-35-44,35,Obese,1
-45-54,35.8,Obese,1
-55-64,39.1,Obese,1
-65-74,40.6,Obese,1
-75+,34.4,Obese,1
-18+,32.5,Obese,1
-18-24,42.3,Overweight or obese,1
-25-34,66.1,Overweight or obese,1
-35-44,74.8,Overweight or obese,1
-45-54,77.9,Overweight or obese,1
-55-64,78.1,Overweight or obese,1
-65-74,81.4,Overweight or obese,1
-75+,74.2,Overweight or obese,1
-18+,71.2,Overweight or obese,1
-18-24,15.5,Obese,2
-25-34,28.9,Obese,2
-35-44,28.4,Obese,2
-45-54,36.1,Obese,2
-55-64,36.4,Obese,2
-65-74,37.2,Obese,2
-75+,31.6,Obese,2
-18+,30.9,Obese,2
-18-24,41.2,Overweight or obese,2
-25-34,51.5,Overweight or obese,2
-35-44,58.3,Overweight or obese,2
-45-54,67.3,Overweight or obese,2
-55-64,69.5,Overweight or obese,2
-65-74,69.4,Overweight or obese,2
-75+,65.7,Overweight or obese,2
-18+,60.5,Overweight or obese,2
+18-24,29.5,Overweight but not obese,Male
+25-34,38.4,Overweight but not obese,Male
+35-44,40,Overweight but not obese,Male
+45-54,42.9,Overweight but not obese,Male
+55-64,38.4,Overweight but not obese,Male
+65-74,40.9,Overweight but not obese,Male
+75+,39.6,Overweight but not obese,Male
+18+,38.6,Overweight but not obese,Male
+18-24,25.2,Overweight but not obese,Female
+25-34,22.9,Overweight but not obese,Female
+35-44,29.9,Overweight but not obese,Female
+45-54,30.9,Overweight but not obese,Female
+55-64,33.3,Overweight but not obese,Female
+65-74,32.5,Overweight but not obese,Female
+75+,33.6,Overweight but not obese,Female
+18+,29.6,Overweight but not obese,Female
+18-24,14.8,Obese,Male
+25-34,28,Obese,Male
+35-44,35,Obese,Male
+45-54,35.8,Obese,Male
+55-64,39.1,Obese,Male
+65-74,40.6,Obese,Male
+75+,34.4,Obese,Male
+18+,32.5,Obese,Male
+18-24,42.3,Overweight or obese,Male
+25-34,66.1,Overweight or obese,Male
+35-44,74.8,Overweight or obese,Male
+45-54,77.9,Overweight or obese,Male
+55-64,78.1,Overweight or obese,Male
+65-74,81.4,Overweight or obese,Male
+75+,74.2,Overweight or obese,Male
+18+,71.2,Overweight or obese,Male
+18-24,15.5,Obese,Female
+25-34,28.9,Obese,Female
+35-44,28.4,Obese,Female
+45-54,36.1,Obese,Female
+55-64,36.4,Obese,Female
+65-74,37.2,Obese,Female
+75+,31.6,Obese,Female
+18+,30.9,Obese,Female
+18-24,41.2,Overweight or obese,Female
+25-34,51.5,Overweight or obese,Female
+35-44,58.3,Overweight or obese,Female
+45-54,67.3,Overweight or obese,Female
+55-64,69.5,Overweight or obese,Female
+65-74,69.4,Overweight or obese,Female
+75+,65.7,Overweight or obese,Female
+18+,60.5,Overweight or obese,Female
