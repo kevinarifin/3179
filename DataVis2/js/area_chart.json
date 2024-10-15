@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-      "url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/Line-chart.csv"
+      "url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/DataVis2/Data/Line-chart.csv"
     },
     "title":{"text": "Prevalence of Obesity in Adults NSW","anchor": "middle"},
     "params":[

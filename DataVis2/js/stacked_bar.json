@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title":{"text": "Proportion of Obesity in Australia 2022","anchor": "middle"},
-  "data": {"url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/Diverging-bar-chart.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/DataVis2/Data/Diverging-bar-chart.csv"},
   "width": 350, "height": {"step": 25},
   "params":[{
       "name": "Classifications",

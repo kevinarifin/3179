@@ -4,7 +4,7 @@
     "height": 600,
     "title": "Death rate from obesity vs share of adults who are obese, 2016",
     "data": {
-      "url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/bubble-plot.csv"
+      "url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/DataVis2/Data/bubble-plot.csv"
     },
     "params": [
       {

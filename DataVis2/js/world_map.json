@@ -4,7 +4,7 @@
   "height": 300,
   "title": {"text": "Obesity in Adults World Comparison","anchor": "middle"},
   "data": {
-    "url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/share-of-adults-defined-as-obese.csv"
+    "url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/DataVis2/Data/share-of-adults-defined-as-obese.csv"
   },
   "transform": [
     {
