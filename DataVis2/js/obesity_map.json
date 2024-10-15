@@ -1,0 +1,96 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": "Age-standardised proportion of adults living with overweight and obesity, by remoteness area, 2017–18","anchor": "middle"},
+    "repeat": ["Crude %", "Age-standardised %"],
+    "columns": 2,
+    "spec": {
+        "projection": {
+        "type": "mercator",
+        "center": [112, -11],
+        "scale": 450
+        },
+    "width": 400,
+    "height": 300,
+    "layer": [
+    {
+    "data": {
+        "url":"https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/phn.json",
+        "format": {"type": "topojson", "feature":"phn"}
+        },
+    "transform": [
+        {
+        "calculate": "'Data is not available in ' +datum.properties.PHN_NAME",
+        "as": "note"
+        }
+    ],
+    "mark": {
+        "type": "geoshape","fill": "gainsboro",
+        "stroke": "white",
+        "strokeWidth": 1
+        },
+    "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+    "data": {
+        "url":"https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/Choropleth_data.csv"
+        },
+    "transform": [
+        {
+        "lookup": "PHN Area Name",
+        "from": {
+            "data": {
+            "url":"https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/phn.json",
+            "format": {
+            "type": "topojson",
+            "feature": "phn"
+            }
+        },
+        "key": "properties.PHN_NAME"
+        },
+        "as": "geo"
+        }
+    ],
+    "mark": {"type": "geoshape", "stroke": "white",
+    "strokeWidth": 0.5},
+    "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+        "field": {"repeat": "repeat"},
+        "type": "quantitative",
+        "scale": {"type": "threshold",
+                "domain": [55,60,65,70],
+                "range": ["#FDD49E","#FDBB84","#FC8D59","#EF6548","#D7301F"]},
+                "legend": {"format": ".2s", "title": ["Overweight & obesity", "proportion for adults"]}
+                },
+        "tooltip": [{"field": "PHN Area Name", "type": "nominal", "title":"PHN Area Name"},
+        {
+        "field": {"repeat": "repeat"},
+        "type": "quantitative",
+        "title": "Proportion of adults overweight and obese",
+        "format": ","
+        }
+        ]
+    }
+    },
+    {
+    "data": {
+        "values": [
+        {
+        "Crude %": "Crude %",
+        "Age-standardised %": "Age-standardised %"
+        }
+    ]
+    },
+    "mark": {
+    "type": "text",
+    "align": "right",
+    "baseline": "bottom",
+    "x": "width",
+    "y": 0
+    },
+    "encoding": {"text": {"field": {"repeat": "repeat"}}}
+    }
+    ]
+    },
+    "config": {}
+    }

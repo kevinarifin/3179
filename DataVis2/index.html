@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Obesity in Australia: A Global Perspective with Demographic Insights</title>
+
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN)-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+
+    <!-- The style sheet applied to this document. -->
+    <link rel="stylesheet" href="events.css">
+
+    <!-- Import pure.css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" 
+    integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- custom style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <style>
+        .text-center {
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="page">
+        <div class="pure-g">
+            <div class="pure-u-1-1 text-center">
+            <h1>Obesity in Australia: Global and Demographic Perspectives</h1>
+            <div class="pure-u-1-1">
+            <p>Obesity can be assessed in various ways, with the most common method being the Body Mass Index (BMI) scale, 
+                which is calculated using a person's height and weight. BMI values help classify individuals as underweight, healthy weight, overweight, or obese.
+                For adults, the World Health Organization (WHO) sets the following thresholds: a BMI between 25 and 30 indicates 
+                <b>overweight</b> while a BMI over 30 is categorized as <b>obese</b>. However, different BMI cut-off points are applied 
+                for specific groups, such as children and pregnant women.</p>
+            
+                <p>The choropleth map below shows the share of adults who are overweight and obese. One interesting trend is that the share of people who 
+                    are overweight tends to be higher in richer countries across Europe, North America and Oceania. Roughly a third of adults in Australia were
+                    obese in 2016. In countries such as India and Nigeria, that share was far lower.</p>
+            </div>
+            </div>
+        </div>
+
+    <!-- World map-->
+        <div class = "pure-g">
+            <div class = "pure-u-1">
+                <div id = "vis2" class = "vis-container"></div>
+            </div>
+        </div>
+
+        <div class = "pure-g">
+            <div class="pure-u-1-1 text-center">
+                <h2>Share of Adults that are overweight or obese in Australia</h2>
+                <div class="pure-u-1-1">
+                <p>In 2018, after adjusting for age, the Western New South Wales PHN area had the <b>highest</b> prevalence of overweight or obesity, 
+                    with 4 in 5 adults (79%) living with overweight or obesity. The Northern Sydney area had the <b>lowest</b> prevalence, with just 
+                    under half of adults living with overweight or obesity (47%).</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- Choropleth map-->
+        <div class = "pure-g">
+            <div class = "pure-u-1">
+                <div id = "vis1" class = "vis-container"></div>
+            </div>
+        </div>
+
+    <!-- Stacked bar chart-->
+    <div class = "pure-g">
+        <div class = "pure-u-1-2">
+            <div id = "vis3" class = "vis-container"></div>
+            <div id="small_text">
+                <p>* Select Classification to filter by BMI.</p>
+            </div>
+        </div>
+        <div class="pure-u-1-2">
+            <h2>How common is overweight and obesity?</h2>
+            <p>In 2022, based on measured data from <i>ABS 2022 NHS</i> of adults aged 18 and over, around <b>60%</b> of 
+                women and <b>71%</b> of men were living with <b>overweight or obesity</b> overweight or obesity. One interestring pattern is
+                that obesity is more common in older age groups. In 2022, 15% of men and 16% of women aged 18–24 years were living with obesity, 
+                compared with 41% of men and 37% of women aged 65–74. Furthermore, for most measures except men tend to have higher rates than women.</p>
+        </div>
+    </div>
+    <!-- Bubble plot-->
+    <div class = "pure-g">
+        <div class = "pure-u-1 text-center">
+            <h2>Health impacts of overweight and obesity</h2>
+            <p>Overweight and obesity is the second leading risk factor contributing to ill health and death. It's linked to <b>30</b> diseases such as cancer, diabetes,
+            dementia and chronic kidney disease. Based on measured data from <i>AIHW 2021</i> overweight and obesity has contributed to around <b>16,400</b> deaths. This bubble chart
+            displays the premature deaths attributed to obesity per 100,000 individuals.</p>
+            <div id = "vis4" class = "vis-container"></div>
+            <div id="small_text">
+                <p>* Select Continent to filter by continent and use the sliders to filter the variables.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Area chart-->
+    <div class = "pure-g">
+        <div class = "pure-u-1-2">
+            <h2>Rise of Obesity</h2>
+            <p>Obesity rates have been steadily rising worldwide and Australia is no exception. Over the past few decades, the country has witnessed an 
+                increase in obesity with around 25% of Australian adults classified as obese as of 2022. </p>
+            <p>Recognising the urgency of the situation, the Australia’s National Preventive Health Strategy (NPHS) 
+                aims to improve the health and wellbeing of all Australians at all stages of life. Some of the key strategies and initiatives include halting the 
+                rise and reverse the trend in the prevalence of obesity in adults by 2030 and to reduce overweight and obesity in children aged 2-17 years by at least
+                5% by 2030.  </p>
+        </div>
+        <div class = "pure-u-1-2">
+            <div id = "vis5" class = "vis-container"></div>
+            <div id="small_text">
+                <p>* Select Classification to filter by BMI and brush the bottom area chart to filter time period.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-1 text-center" id="end_credit">
+            <p style="color: black;">Copyright © 2024 Kevin Arifin</p>
+            <p style="color: black;">Data sources: <a href="https://www.aihw.gov.au/reports/overweight-obesity/overweight-and-obesity/data">AIHW</a> and 
+                <a href="https://ourworldindata.org/grapher/death-rate-vs-share-obesity">Our World in Data</a>
+        </div>
+    </div>
+
+    <!-- This .js file is loaded and run after all other elements are loaded.   -->
+    <script src="events.js"></script>
+    <script type = "text/javascript">
+        var specVis1 = "./js/obesity_map.json"
+        var specVis2 = "./js/world_map.json"
+        var specVis3 = "./js/stacked_bar.json"
+        var specVis4 = "./js/bubble_plot.json"
+        var specVis5 = "./js/area_chart.json"
+
+        vegaEmbed('#vis1', specVis1, {"actions":false}).catch(console.error)
+        vegaEmbed('#vis2', specVis2, {"actions":false}).catch(console.error)
+        vegaEmbed('#vis3', specVis3, {"actions":false}).catch(console.error)
+        vegaEmbed('#vis4', specVis4, {"actions":false}).catch(console.error)
+        vegaEmbed('#vis5', specVis5, {"actions":false}).catch(console.error)
+    </script>
+</body>
+</html>

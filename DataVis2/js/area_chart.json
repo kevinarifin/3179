@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/Line-chart.csv"
+    },
+    "title":{"text": "Prevalence of Obesity in Adults NSW","anchor": "middle"},
+    "params":[
+      {
+        "name": "Classification_selection",
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              "Overweight",
+              "Obese",
+              "Overweight or obese"
+            ],
+            "labels": [
+              "None",
+              "Overweight",
+              "Obese",
+              "Overweight or obese"
+            ],
+            "name": "Classification: "
+          }
+      }
+    ],
+    "transform": [
+        {
+          "filter": "datum.Classification == Classification_selection"
+        }
+      ],
+    "vconcat": [
+      {
+        "width": 500,
+        "height": 240,
+        "mark": "area",
+        "encoding": {
+          "x": {
+            "field": "Period",
+            "type": "temporal",
+            "scale": {"domain": {"param": "brush"}},
+            "axis": {"title": "", "tickCount": 10}
+          },
+          "y": {"field": "Percent", "type": "quantitative"}
+        }
+      },
+      {
+        "width": 500,
+        "height": 60,
+        "mark": "area",
+        "params": [
+          {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
+        ],
+        "encoding": {
+          "x": {"field": "Period", "type": "temporal", "axis": {"tickCount": 10}},
+          "y": {
+            "field": "Percent",
+            "type": "quantitative",
+            "axis": {"tickCount": 3, "grid": false}
+          }
+        }
+      }
+    ]
+  }

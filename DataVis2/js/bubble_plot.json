@@ -1,0 +1,161 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 600,
+    "title": "Death rate from obesity vs share of adults who are obese, 2016",
+    "data": {
+      "url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/bubble-plot.csv"
+    },
+    "params": [
+      {
+        "name": "Population_Above",
+        "value": 0,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 100000000,
+          "step": 1000000,
+          "name": "Minimum Population: "
+        }
+      },
+      {
+        "name": "Death_Rate_Above",
+        "value": 0,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 300,
+          "step": 5,
+          "name": "Minimum Death Rate: "
+        }
+      },
+      {
+        "name": "Adult_Obesity_Above",
+        "value": 0,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 0.5,
+          "step": 0.01,
+          "name": "Minimum Adult Obesity: "
+        }
+      },
+      {
+        "name": "Continent_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "labels": [
+            "Show All",
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "name": "Continent Selection: "
+        }
+      }
+    ],
+    "transform": [
+      {"filter": "datum.Population > Population_Above"},
+      {"filter": "datum['Death rate from obesity'] > Death_Rate_Above"},
+      {"filter": "datum['Adult obesity'] > Adult_Obesity_Above"},
+      {
+        "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "Adult obesity",
+        "type": "quantitative",
+        "title": "Adult obesity rate",
+        "axis": {"tickCount": 7}
+      },
+      "y": {
+        "field": "Death rate from obesity",
+        "type": "quantitative",
+        "axis": {"tickCount": 6}
+      }
+    },
+    "layer": [
+      {
+        "mark": "circle",
+        "encoding": {
+          "size": {
+            "field": "Population",
+            "type": "quantitative",
+            "scale": {
+              "type": "threshold",
+              "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
+              "range": [10, 50, 150, 200, 300, 400]
+            },
+            "legend": {"format": ".1s"}
+          },
+          "color": {
+            "field": "Continent",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "North America",
+                "South America",
+                "Europe",
+                "Africa",
+                "Asia",
+                "Oceania"
+              ],
+              "range": [
+                "#e41a1c",
+                "#984ea3",
+                "#ff7f00",
+                "#a6cee3",
+                "#377eb8",
+                "#a65628"
+              ]
+            }
+          },
+          "opacity": {"value": 0.6},
+          "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Adult obesity", "type": "quantitative", "format": ","},
+            {"field": "Death rate from obesity", "type": "quantitative", "format": ","}
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "right",
+          "baseline": "middle",
+          "dx": -12,
+          "fontSize": 11.5,
+          "fontStyle": "italic"
+        },
+        "encoding": {
+          "text": {"field": "Country", "type": "nominal"},
+          "color": {"value": "black"},
+          "opacity": {
+            "condition": {
+              "test": "datum['Country'] == 'China' || datum['Country'] == 'Turkey' || datum['Country'] == 'Australia' || datum['Country'] == 'Brazil' || datum['Country'] == 'Italy' || datum['Country'] == 'Nigeria' ||  datum['Country'] == 'United States'",
+              "value": 1
+            },
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Adult obesity", "type": "quantitative", "format": ","},
+            {"field": "Death rate from obesity", "type": "quantitative", "format": ","}
+          ]
+        }
+      }
+    ]
+  }

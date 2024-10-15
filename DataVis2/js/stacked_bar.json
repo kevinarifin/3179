@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":{"text": "Proportion of Obesity in Australia 2022","anchor": "middle"},
+  "data": {"url": "https://raw.githubusercontent.com/kevinarifin/3179/refs/heads/main/Diverging-bar-chart.csv"},
+  "width": 350, "height": {"step": 25},
+  "params":[{
+      "name": "Classifications",
+      "bind":{
+        "input": "select",
+        "options":[
+          null,
+          "Overweight but not obese",
+          "Obese",
+          "Overweight or obese"
+        ],
+        "labels":[
+          "None",
+          "Overweight but not obese",
+          "Obese",
+          "Overweight or obese"
+          ],
+          "name": "Classification: "
+      }
+    }],
+    "transform": [
+      {"filter":  "datum.Classification == Classifications"}
+    ],
+  "resolve": {"scale": {"color": "independent"}},
+  "layer": [
+     {"mark": "bar",
+      "encoding": {
+        "x": {"aggregate": "sum", "field": "Percent", "type": "quantitative", "stack": "zero","title": "Percent"},
+        "y": {"field": "Age group", "type": "nominal"},
+        "color": {"field": "Gender", "type": "nominal","scale": {"range": ["#FFC0CB", "#5BBAEA"]}}}
+     },
+     {"mark": {"type": "text", "dx": -15, "dy": 3},
+      "encoding": {
+        "x": {"aggregate": "sum", "field": "Percent", "type": "quantitative", "stack": "zero"},
+        "y": {"field": "Age group", "type": "nominal"},
+        "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "text": {"aggregate": "sum", "field": "Percent", "type": "quantitative", "format": ".1f"}}
+    }
+  ]
+}
